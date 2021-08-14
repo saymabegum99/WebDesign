@@ -1,0 +1,314 @@
+/* image position*/
+div.row{
+	text-align: center;
+}
+div.content{
+	text-align: center;
+}
+
+div.ahsan{
+	text-align: center;
+}
+div.images {
+	text-align: center;
+}
+
+/* map see link 3 in the report*/
+div.map{
+   text-align: center;
+}
+
+/*align date*/
+#DateDisplay{
+	align-content: right;
+	text-align: center;
+}
+
+/* gradient for top background see link 5 in the report*/
+body {
+    background-color: -webkit-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -moz-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -o-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -ms-linear-gradient(top, #004040 0%, #009f00 100%);
+background: linear-gradient(to bottom, #004040 0%, #009f00 100%);
+} 
+.responsive {
+	width: 55%;
+	height: auto
+	
+}
+
+
+/* external google font link see report link no.10 */ 
+p {font-family: 'Libre Baskerville', serif;
+	text-align: center
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Libre Baskerville', serif;
+	text-align: center
+}
+
+h5 {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
+
+/* content box see link no.1 in the report /*
+
+/* collapsible content */
+.collapsible {
+  background-color: darkgreen;
+  color: whitesmoke;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+ border-top: solid black;
+	border-bottom: solid black
+}
+
+/* hover */
+.active, .collapsible:hover {
+  background-color: hsl(124, 87%, 6%);
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+	
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/*table, see link no.4 in the report*/
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /*  search icon  */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /*  font-size */
+  padding: 12px 20px 12px 40px; /* padding */
+  border: 3px groove #ddd; /*  border */
+  margin-bottom: 12px; /* space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /*  border */
+  font-size: 18px; /*  font-size */
+	@media screen and (max-width: 600px)
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /*  padding */
+}
+
+#myTable tr {
+  /*  bottom border  */
+  border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* top background color r */
+  background-color:#0F643C;
+	
+}
+
+#myTable {
+	background-color: whitesmoke
+}
+
+/* contact us feedback form taken and altered, see report link no.8*/ 
+
+/*  type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px groove #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* submit button  */
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: groove gray;
+  border-radius: 4px;
+  cursor: pointer;
+	;
+}
+
+/* change colour over hover */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* background color, padding  */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*  font icons */
+
+* {
+  box-sizing: border-box;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center
+}
+
+
+/* Header/logo Title */
+.header {
+  text-align: center;
+ 
+  color: white;
+}
+
+/*  heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Gradient for navigation bar see link no.5 */
+.navbar {
+  overflow: hidden;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #004040), color-stop(1, #009f00));
+background: -webkit-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -moz-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -o-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -ms-linear-gradient(top, #004040 0%, #009f00 100%);
+background: linear-gradient(to bottom, #004040 0%, #009f00 100%);
+
+	font-size: 20px;
+}
+
+/* navigation bar  */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/*  color on hover */
+.navbar a:hover {
+font-size:1em;
+	background-color: hsl(124, 87%, 6%);
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/*  columns  */
+/* Sidebar */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: darkseagreen;
+  padding: 20px;
+}
+
+
+
+.footer {
+  padding: 3px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgreen;
+text-decoration-color: white;
+  color: white;
+  text-align: center;
+}
+      /* Responsive layout - see link no. 2 in report */
+
+		@media screen and (max-width: 767px) {
+
+			#footer {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+	
+
+
+@media screen and (max-width: 600px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout edited by myself see link 13 in the report */
+@media screen and (max-width: 767px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+	
+	@media only screen and (max-width: 600px)
+}

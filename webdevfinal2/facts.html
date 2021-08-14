@@ -1,0 +1,165 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	 <!-- External google font link (see report link 10) -->
+		<!-- Layout design code taken and altered (see report links no.2 ) -->
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+
+  <title>Bangladeshiful</title>
+   <meta name="name" content="A website for the Bangladeshi community"> 
+  <meta name="author" content="Bangladeshiful">
+  <meta name="viewport" content="A website created for the Bangladeshi community">
+  <meta name="refresh" content="Website bringing you the latest headlines">
+	<meta charset="UTF-8">
+
+    
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet1.css">
+	
+	 <!-- Date code taken and altered (see report links no.11 ) -->
+	 <body onLoad="renderTime();"> <div id="DateDisplay" class="container"></div> 
+			
+	 
+	<div class="header"> 
+	  <h1>Bangladeshiful</h1>
+		<!-- Logo design taken and altered (see report links no.7 ) -->
+		<img src="img/tiger.svg"
+			 alt="tiger logo"
+			 style="width:200px;height:100px;">
+	  <p>Coded and Written by Sayma Begum</p>
+	</div>
+
+
+   <!--Navigation bar, link no.13 in report -->
+	<div class="navbar">
+	  <a href="index.html">Home</a>
+	  <a href="facts.html">Facts</a>
+		<a href="news.html">News</a>
+		<a href="about%20us.html">About Us
+				  </a>
+	  <a href="contact.html">Contact Us</a>
+
+
+	</div>
+
+			 <!-- Left column -->
+	<div class="row">
+	  <div class="side">
+		  <h2>FACTS</h2>
+ 
+	  <p> Population : 162 million </p>
+	  <p>Area : 143,998 sq km (55,598 sq miles) </p>
+	  <p> Major Language : Bengali </p>
+	  <p>Major Religon : Islam, Hinduism</p>
+	  <p>Life expentancy : 69 years (men), 70 years (women)</p>
+	 <p> Currency : Taka</p>
+    <h3> A breif History</h3>
+    <p>Bangladesh (The country of the bengal) is a country in South Asia which shares its land borders with India and Myammar. The 8th most populous country largely consists of various ethnic and religous groups, the largest ethnic group being bengali and the largest religous group being muslim. However Bangladesh does consist of many hindu and tribal populations.  </p>
+	  
+	  <p> Bangladesh is covered by the Bengal delta, the largest delta on Earth, in fact Bangladesh has over 700 rivers and inland waterways, is covered with evergreen forest and jungles and also is home to the royal bengal tiger.</p>
+	  
+	  <p> Bangladesh belonged to the British empire until the area joined pakistan after the partition movement. This is when Bangladesh was known as East Pakistan. However this was short lived as Bangladesh later became an independant nation after a 9 month war with Pakitan. </p>
+  
+	  <p> Modern day Bangladesh is now a developing nation and has the 4th largest metropolitian areas in the world and boasts becoming one of the largest textile exporters in the world.</p>
+	  </div>
+		<!-- map tags-->
+	  <div class="main">
+
+		 <script src="date.js"></script>
+			
+			<!-- Right column -->
+	    
+    <h2>CITY MAPPING</h2>
+    <p>Feel free to click on the capital cities in Bangladesh to reveal an image</p>
+       
+	  <!-- Right column -->
+	  
+	   <!-- Map tag, (see report link no.3) -->
+	  <div class="map">
+	  <img src="img/BDmap.jpg" class ="responsive" 
+		   alt="Map of Bangladesh" width=500  usemap="#bdmap">
+	<map name="bdmap">
+	  <area shape="rect" coords="261,155,325,181" alt="dhaka" href="img/dhaka.jpg">
+	
+	 <area shape="rect" coords="338,93,395,141" alt="sylhet" href="https://i2.wp.com/www.travel-bangladesh.net/wp-content/uploads/2010/05/tea-garden-at-Sylhet.jpg?resize=750%2C499&ssl=1">
+	
+	 <area shape="rect" coords="337,217,442,263" alt="chittagong" href="https://i0.wp.com/www.travel-bangladesh.net/wp-content/uploads/2014/11/nilgiri-hill-resort-bandarban.jpg?resize=750%2C499&ssl=1">
+	
+	<area shape="rect" coords="166,120,257,165" alt="rajshahi" href="http://www.daily-sun.com/assets/news_images/2016/07/01/Morning-Tea-216-07-01-06.jpg">
+	
+	<area shape="rect" coords="231,255,306,259" alt="khulna" href="https://i.pinimg.com/originals/2e/8c/ef/2e8cef91f7debe37621a9e24b4d115d4.jpg">
+  
+	</map>
+	  
+	  </div>
+  
+	  <p> Search the population size of each division in Bangladesh, you'll be suprised to find how mmuch people live in such a small space!</p>
+	
+	  	  <!--Filter table, see link no.4 in the report -->
+
+	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cities in Bangladesh..">
+
+	<table id="myTable">
+	  <tr class="header">
+		<th style="width:60%;"> Division </th>
+		<th style="width:40%;"> Population</th>
+	  </tr>
+	  <tr>
+		<td>Chittagong</td>
+		<td>28,423,019</td>
+	  </tr>
+	  <tr>
+		<td>Dhaka</td>
+		<td>36,433,505</td>
+	  </tr>
+	  <tr>
+		<td>Khulna</td>
+		<td>24,013,425</td>
+	  </tr>
+	  <tr>
+		<td>Rajshahi</td>
+		<td>18,484,858</td>
+	  </tr>
+		 <tr>
+		<td>Sylhet</td>
+		<td>9,910,219</td>
+	  </tr>
+	</table>
+		<br>
+
+	  </div>
+	</div>
+
+            <!-- external script for filter table see link no. 9 in report  -->
+		   <script src="myScript.js"></script>
+
+	 
+
+  <!-- footer-->
+
+	<div class="footer" > 
+
+	
+        <!-- Contact Information -->
+		
+        
+        <div id="fpcontactInfoName">
+        <p>Contact Us</p>   
+        </div>
+        
+        <!-- Generic Email Adress -->
+        <div id="fpcontactInfoEmail">
+        <a>Bangladeshiful@gmail.com</a>
+        </div>
+        
+        <!-- Emergency Number from the sitcom 'The IT Crowd' -->
+        
+        <div id="fpcharityNumber">
+			<p>Facility number: 0118 999 881 999 119 725 </p>
+        </div>
+    </div>	
+
+	</body>
+</html>
+
+
+

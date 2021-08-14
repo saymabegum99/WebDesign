@@ -1,0 +1,9 @@
+var txt; 
+function preload() {
+	txt = loadStrings("articles.txt");
+}
+
+function setup () {
+	
+	createP(txt);
+}

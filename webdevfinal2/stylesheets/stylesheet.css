@@ -1,0 +1,353 @@
+
+div.tags
+{
+	text-align: center;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+	text-shadow: 3px 3px black;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+	
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-align: center;
+	
+	
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*align date*/
+#DateDisplay{
+	align-content: right;
+	text-align: right;
+}
+.responsive {
+	width: 100%;
+	height: auto
+	
+}
+
+
+/* external google font link */ 
+p {font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+/* Style all font icons */
+
+.fa:hover {
+    opacity: 0.7;
+	border-color: black;
+	font-size: 50px;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+  padding: 20px;
+	width:55px;
+	text-align: center;
+}
+
+.fa-twitter {
+  background:black;
+  color: white;
+	padding: 20px;
+}
+
+.fa-google {
+  background:black ;
+  color: white;
+	padding: 20px;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+	padding: 20px;
+}
+
+.fa-youtube {
+  background: black;
+  color: white;
+	padding: 20px;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+	padding: 20px;
+}
+
+.fa-pinterest {
+  background: black;
+  color: white;
+  padding: 20px;
+
+}
+
+/*  all font  */
+
+h1{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    color: black;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+* {
+    box-sizing: border-box;
+    grid-gap: 10px;
+}
+
+
+
+
+.boxed {
+  border: 5px solid #ffffff ;
+	background-color: dark;
+	width: 100%;
+	height: 20%;
+	
+}
+
+
+
+.center {
+    text-align: center;
+ ;
+	
+}
+
+/* Header Styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   color:#ffffff;
+border-width:5px;
+
+	/*gradient, see link 5 in report*/
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #004040), color-stop(1, #009f00));
+background: -webkit-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -moz-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -o-linear-gradient(top, #004040 0%, #009f00 100%);
+background: -ms-linear-gradient(top, #004040 0%, #009f00 100%);
+background: linear-gradient(to bottom, #004040 0%, #009f00 100%);
+
+	font-size: 20px
+	
+}
+
+/* nav bar, see link no.13 in report */
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+li a:hover {
+	font-family:Copperplate;
+font-size:1em;
+	background-color: hsl(124, 87%, 6%);
+	
+}
+
+
+
+/* Header Styling */
+
+   .header {
+  grid-area: header;
+  background-color: #333;
+  text-align: center;
+  font-size: 15px;
+}
+    
+/* Centre Styling */
+.main {
+  grid-area: main;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  grid-row-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 350px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'main main main main main main'      
+  'left left middle middle right right' 
+  'footer footer footer footer footer footer';
+  grid-column-gap: 10px;
+} 
+
+
+
+/*  left column */
+.left {
+  grid-area: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  text-align: center;
+}
+
+/*  middle column */
+.middle {
+  grid-area: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* right column */
+.right {
+  grid-area: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  text-align: center;
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgreen;
+text-decoration-color: white;
+  color: white;
+  text-align: center;
+}
+
+/* see link no. 2 in the report */ 
+		@media screen and (max-width: 767px) {
+
+			#footer {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+	@media only screen and (max-width: 600px)
+
+}
+
